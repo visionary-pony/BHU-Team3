@@ -1,2 +1,10 @@
-# BHU-Team3
-## run tempor.py file and enter compant code start date and enddate of analysis
+# BHU-Team 3
+## Execution commands
+```bash 
+python north/tempor.py
+```
+## Requirements
+- Plotly
+- chart studio
+- openpyxl
+- Pandas
