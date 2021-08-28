@@ -62,7 +62,7 @@ def compt(userinput,startdate,enddate):
             output_data.writerow([str(val[0]),str(val[1]),str(val[2]),str(val[3]),str(val[4]),companykey[i]])
             i+=1
 
-    df = pd.read_csv("D:\\north\\result.csv")
+    df = pd.read_csv("result.csv")
     fig = go.Figure(data=go.Ohlc(x=df['date'],
                     open=df['open'],
                     high=df['high'],

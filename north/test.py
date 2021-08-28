@@ -8,7 +8,7 @@ import os
 if not os.path.exists("images"):
     os.mkdir("images")
 
-df = pd.read_csv("D:\\north\\result.csv")
+df = pd.read_csv("result.csv")
 data1=go.Ohlc(x=df['date'],
                 open=df['open'],
                 high=df['high'],
